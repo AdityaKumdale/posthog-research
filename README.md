@@ -13,6 +13,7 @@ when the conversation is about that topic.
 | --- | --- | --- |
 | 01 | [`01-overview.md`](./01-overview.md) | High-level architecture, folder layout, boot path, tooling, running locally, testing, learning path |
 | 02 | [`02-kea-endpointslogic.md`](./02-kea-endpointslogic.md) | Line-by-line deep-dive of `products/endpoints/frontend/endpointsLogic.tsx` — imports, builders, loaders, reducers, selectors, url sync, component consumption, exercises |
+| 03 | [`03-tab-system.md`](./03-tab-system.md) | How PostHog's multi-tab workspace works without `?hs=`/query-string IDs — `sceneLogic.tabs`, `getRouterState` → `history.state`, `tabAwareUrlToAction` / `tabAwareActionToUrl`, sessionStorage/localStorage layers, recommendations for adapting to Next.js App Router |
 
 ## Conventions for future topics
 
